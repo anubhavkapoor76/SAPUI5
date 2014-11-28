@@ -1,0 +1,42 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.ui.commons" xmlns:m="sap.m"
+xmlns:l="sap.ui.layout"
+			controllerName="simpleform.View1" xmlns:html="http://www.w3.org/1999/xhtml">
+<m:Page >
+<m:content>
+
+<l:VerticalLayout >
+<m:Label text="First name">
+</m:Label>
+<m:Input  id="idfname" placeholder="Enter the First Name......" value="">
+</m:Input>
+
+<m:Label text="Last name">
+</m:Label>
+<m:Input placeholder="Enter the Last Name......" id="idlname">
+</m:Input>
+
+<m:Label  text="Gender">
+</m:Label>
+<m:Select  id="mySelectMenu" selected="Female">
+
+</m:Select>
+
+<m:Label text="Mobile no">
+</m:Label>
+<m:Input placeholder="Enter the Mobile No......" id="idmobileno">
+</m:Input>
+
+<m:Label text="Email Id">
+</m:Label>
+<m:Input placeholder="Enter the Email Id......" id="idemailid">
+</m:Input>
+
+
+<m:Button text="Display" press="display"></m:Button>
+</l:VerticalLayout>
+</m:content>
+
+
+</m:Page>
+
+</core:View>

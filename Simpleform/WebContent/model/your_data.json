@@ -1,0 +1,24 @@
+{
+
+  "mRoot" : [ {
+
+  "dkey" : "1",
+
+  "dtext" : "Male"
+
+  }, {
+
+  "dkey" : "2",
+
+  "dtext" : "Female"
+
+  }, {
+
+  "dkey" : "3",
+
+  "dtext" : "Not Specify"
+
+  }  
+  ]
+
+}
